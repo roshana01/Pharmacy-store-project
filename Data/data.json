@@ -1,0 +1,198 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "smart Infrared Thermometer ",
+      "price": 39.00,
+      "rate": "4",
+      "images": [
+        "./public/images/Thermometer (2).jpg",
+        "./public/images/Thermometer (4).jpg",
+        "./public/images/Thermometer (6).jpg"
+      ],
+      "icon": "./public/images/add.png"
+    },
+    {
+      "id": 2,
+      "name": "blodFit ",
+      "price": 9.00,
+      "rate": "3",
+      "images": [
+        "./public/images/Mask (1).jpg",
+        "./public/images/Mask (2).jpg",
+        "./public/images/Mask (3).jpg"
+      ],
+      "icon": "./public/images/add.png"
+    },
+    {
+      "id": 3,
+      "name": "adult Digital ",
+      "price": 20.00,
+      "rate": "5",
+      "images": [
+        "./public/images/Thermometer (1).jpg",
+        "./public/images/Thermometer (3).jpg",
+        "./public/images/Thermometer (5).jpg"
+      ],
+      "icon": "./public/images/add.png"
+    },
+    {
+      "id": 4,
+      "name": "blodFit",
+      "price": 26.00,
+      "rate": "3",
+      "images": [
+        "./public/images/Mask (1).jpg",
+        "./public/images/Mask (2).jpg",
+        "./public/images/Mask (3).jpg"
+      ],
+      "icon": "./public/images/add.png"
+    },
+    {
+      "id": 5,
+      "name": "adult Digital",
+      "price": 38.00,
+      "rate": "5",
+      "images": [
+        "./public/images/Thermometer (1).jpg",
+        "./public/images/Thermometer (3).jpg",
+        "./public/images/Thermometer (5).jpg"
+      ],
+      "icon": "./public/images/add.png"
+    },
+    {
+      "id": 6,
+      "name": "sphygmomanometer ",
+      "price": 54.00,
+      "rate": "2",
+      "images": [
+        "./public/images/Blood glucose meter_.jpg",
+        "./public/images/Blood glucose meter2.jpg"
+      ],
+      "icon": "./public/images/add.png"
+    },
+
+    {
+      "id": 7,
+      "name": "dettol ",
+      "price": 19.00,
+      "rate": "4",
+      "images": [
+        "./public/images/product (16).jpg",
+        "./public/images/product (5).jpg"
+      ],
+      "icon": "./public/images/add.png"
+    },
+    {
+      "id": 8,
+      "name": "sphygmomanometer",
+      "price": 62.00,
+      "rate": "2",
+      "images": [
+        "./public/images/Blood glucose meter_.jpg",
+        "./public/images/Blood glucose meter2.jpg"
+      ],
+      "icon": "./public/images/add.png"
+    },
+
+    {
+      "id": 9,
+      "name": "dettol",
+      "price": 23.00,
+      "rate": "4",
+      "images": [
+        "./public/images/product (16).jpg",
+        "./public/images/product (5).jpg"
+      ],
+      "icon": "./public/images/add.png"
+    },
+    {
+      "id": 10,
+      "name": "dettol ",
+      "price": 28.00,
+      "rate": "1",
+      "images": [
+        "./public/images/product (29).jpg",
+        "./public/images/product (2).jpg",
+        "./public/images/product (3).jpg"
+      ],
+      "icon": "./public/images/add.png"
+    },
+    {
+      "id": 11,
+      "name": "dettol",
+      "price": 37.00,
+      "rate": "5",
+      "images": [
+        "./public/images/product (16).jpg",
+        "./public/images/product (9).jpg"
+      ],
+      "icon": "./public/images/add.png"
+    },
+    {
+      "id": 12,
+      "name": "dettol ",
+      "price": 33.00,
+      "rate": "3",
+      "images": [
+        "./public/images/Blood glucose meter_.jpg",
+        "./public/images/product (12).jpg",
+        "./public/images/product (8).jpg"
+      ],
+      "icon": "./public/images/add.png"
+    }
+  ],
+
+  "dataServer": [
+    {
+      "id": 0,
+      "icon": "./public/images/icon (4).png",
+      "title": "100% Genuine",
+      "description": "We are committed to selling 100% genuine"
+    },
+    {
+      "id": 1,
+      "icon": "./public/images/icon (3).png",
+      "title": "Member Discount",
+      "description": "We refund one-for-one for non-standard products"
+    },
+    {
+      "id": 2,
+      "icon": "./public/images/icon (2).png",
+      "title": "Online Payment",
+      "description": "We guarantee absolute safety and security"
+    },
+    {
+      "id": 3,
+      "icon": "./public/images/icon (1).png",
+      "title": "24h Support",
+      "description": "Always ready to consult customer support"
+    }
+  ],
+  "team": [
+    {
+      "id": 1,
+      "img": "./public/images/team1.png",
+      "name": "Lawrence West",
+      "jop": "CEO, Founder"
+    },
+    {
+      "id": 2,
+      "img": "./public/images/team-2-1.png",
+      "name": "Willis Floyd",
+      "jop": "Pharmacist"
+    },
+    {
+      "id": 3,
+      "img": "./public/images/team3.png",
+      "name": "Freda Barnett",
+      "jop": "Nurse"
+    },
+    {
+      "id": 4,
+      "img": "./public/images/team4.png",
+      "name": "Beverly Singleton",
+      "jop": "Nursing staff"
+    }
+  ]
+}
