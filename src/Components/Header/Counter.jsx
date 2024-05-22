@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useCounter } from "../../Context/AppContext";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Counter() {
   const { count,  selectCart } = useCounter();
@@ -16,7 +17,7 @@ export default function Counter() {
           {count}
         </span>
         <NavLink to={"/cart"}>
-          <img
+          <LazyLoadImage
             src="./public/images/shop.png"
             alt=""
             className="w-7 font-semibold  mr-1"

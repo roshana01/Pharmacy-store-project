@@ -1,5 +1,6 @@
 import React from "react";
 import { useCounter } from "../../Context/AppContext";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function ItemCart({ cart }) {
   const { id, name, price, images } = cart;
@@ -8,7 +9,6 @@ export default function ItemCart({ cart }) {
     previousAddProduct,
     nextAddProduct,
     btnAddProduct,
-    
   } = useCounter();
 
   return (
@@ -21,7 +21,7 @@ export default function ItemCart({ cart }) {
             <div className="flex items-center gap-2">
               <div className="avatar shadow rounded-full">
                 <div className="mask mask-squircle w-14 h-14 rounded-full">
-                  <img
+                  <LazyLoadImage
                     src={images[0]}
                     alt="Avatar Tailwind CSS Component"
                     className="shadow"

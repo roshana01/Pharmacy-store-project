@@ -1,6 +1,7 @@
 import React from "react";
 import { useCounter } from "../Context/AppContext";
 import { NavLink } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function ShowProductChild({ item }) {
   const {id, name, price, images } = item;
@@ -11,7 +12,7 @@ export default function ShowProductChild({ item }) {
       {showShop && (
         <>
           <div className=" w-[300px] h-[340px] rounded-2xl border border-solid mb-10 border-gray-300  shadow overflow-hidden ">
-            <img src={images[0]} alt="" />
+            <LazyLoadImage src={images[0]} alt="" />
           </div>
           <div>
             <h1 className="font-semibold text-[24px] py-3">{name}</h1>

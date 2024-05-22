@@ -1,12 +1,13 @@
 import React from "react";
 import ListTeam from "./Team.jsx/ListTeam";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function About() {
   return (
     <>
       <div className="">
         <div className="mt-36 relative">
-          <img
+          <LazyLoadImage
             src="./public/images/back1.jpg"
             alt=""
             className="w-full  relative"

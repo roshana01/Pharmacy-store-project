@@ -1,12 +1,17 @@
-import About from "../pages/About";
+// import About from "../pages/About";
+// import Contact from "../pages/Contact";
+// import Home from "../pages/Home";
+// import NotFound from "../pages/NotFound";
+// import ShowProduct from "../pages/ShowProduct";
+// import ListCart from "../pages/AddListShop/ListCart";
 
-import Contact from "../pages/Contact";
-import Home from "../pages/Home";
-import NotFound from "../pages/NotFound";
-
-import ShowProduct from "../pages/ShowProduct";
-import ListCart from "../pages/AddListShop/ListCart";
-// import About from "../pages/Team.jsx/About";
+import { lazy } from "react";
+const Home = lazy(() => import("../pages/Home"));
+const About = lazy(() => import("../pages/About"));
+const Contact = lazy(() => import("../pages/Contact"));
+const ListCart = lazy(() => import("../pages/AddListShop/ListCart"));
+const ShowProduct = lazy(() => import("../pages/ShowProduct"));
+const NotFound = lazy(() => import("../pages/NotFound"));
 
 const routes = [
   { path: "/", element: <Home />, breadcrumb: "Home" },

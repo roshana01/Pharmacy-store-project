@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Dropdown() {
   return (
@@ -8,7 +9,7 @@ export default function Dropdown() {
         role="button"
         className="bg-blue-500 rounded-sm py-3 p-2 text-white m-1 w-72 flex "
       >
-        <img src="./public/images/menu.png" alt="" className="w-7 mx-4 " />
+        <LazyLoadImage src="./public/images/menu.png" alt="" className="w-7 mx-4 " />
         shop by category
       </div>
       <ul
